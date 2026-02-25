@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    max-width: 800px;
+    background-color: lightgrey;
+}
+
+.titles {
+    width: max-content;
+    background: rgb(115, 150, 180);
+    padding: 8px 16px;
+    color: white;
+    border: 4px groove grey;
+}
+
+.lists {
+    border-left: 4px groove grey;
+    margin-left: 12px;
+}
+
+.page-break {
+    width: inherit;
+    border-bottom: 4px groove grey;
+    padding-bottom: 16px;
+}
+
+
+.pages {
+    width:max-content;
+    border-left: 8px groove grey;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    padding: 8px 4px;
+    margin: 8px 0px;
+}
