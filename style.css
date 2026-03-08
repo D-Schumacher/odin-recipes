@@ -1,15 +1,32 @@
-* {
+body {
+    background-color: darkslategrey;
+    margin: 0;
     box-sizing: border-box;
-    max-width: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border-left: 8px groove grey;
+    border-right:  8px groove grey;
+    margin: 0 10%;
+    padding: 0 5%;
     background-color: lightgrey;
 }
 
 .titles {
+    display: flex;
+    margin-left: -5%;
     width: max-content;
-    background: rgb(115, 150, 180);
+    background: darkslategrey;
     padding: 8px 16px;
     color: white;
     border: 4px groove grey;
+}
+
+.images, .author {
+    margin: 0 auto;
 }
 
 .lists {
@@ -18,18 +35,16 @@
 }
 
 .page-break {
-    width: inherit;
     border-bottom: 4px groove grey;
     padding-bottom: 16px;
 }
 
 
 .pages {
-    width:max-content;
+    width: max-content;
     border-left: 8px groove grey;
     font-size: 20px;
     font-weight: 800;
     text-align: left;
-    padding: 8px 4px;
-    margin: 8px 0px;
+    padding: 8px 16px;
 }
